@@ -23,4 +23,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ayindelouisin/tp_devops:v0.1
+          tags: ayindelouisin/tp_devops:v0.2
