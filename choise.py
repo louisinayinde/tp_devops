@@ -50,7 +50,7 @@ firstquestion = random.randint(0,5)
 secondquestion = firstquestion
 
 while secondquestion == firstquestion:
-	secondquestion = random.randint(0,5)
+    secondquestion = random.randint(0,5)
 
 thirdquestion = firstquestion
 
