@@ -8,6 +8,8 @@ jobs:
     steps:
       - name: Checkout 
         uses: actions/checkout@v2
+      - name: Script shell permission
+        run: chmod +x choise.sh
       - name: Run the choise script
         run: ./choise.sh
       - name: Login to Docker Hub
